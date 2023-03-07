@@ -11,6 +11,7 @@ import Lazarus from './music/Lazarus.mp3';
 import Sia from './music/Sia - Bird Set Free.mp3';
 import Nobody from './music/T-Classic-Nobody-Fine-Pass-You.mp3';
 import Yosemite from './music/Yosemite.mp3';
+import BOB from './music/BOB.mp3';
 
 
 
@@ -75,6 +76,12 @@ export default function App() {
 			{
 				title: 'Dark paradise',
 				artist: 'Lana Del Ray',
+				img_src: AudioImg,
+				src: Audio,
+			},
+			{
+				title: 'BOB',
+				artist: 'BOB',
 				img_src: AudioImg,
 				src: Audio,
 			},

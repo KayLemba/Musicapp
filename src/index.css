@@ -15,11 +15,12 @@ body {
 	justify-content: center;
 	min-height: 100vh;
 	max-width: 100vw;
+	background:rgba(101, 100, 100, 0.4)
 }
 
 .c-player {
 	display: block;
-	background-color: #0a54aa;
+	background-color: #28292a;
 	max-width: 400px;
 	display: block;
 	margin: 0px auto;
@@ -73,7 +74,7 @@ body {
 	right: -25px;
 	bottom: -25px;
 	border-radius: 50%;
-	border: 3px dashed rgb(255, 0, 0);
+	border: 3px dashed rgb(77, 148, 59);
 }
 
 .c-player--details .details-title {
@@ -112,7 +113,7 @@ body {
 		inset 4px 4px 10px rgba(255, 255, 255, 0.4);
 	border: none;
 	outline: none;
-	background-color: #ff0000;
+	background-color: rgb(77, 148, 59);
 	color: #fff;
 	font-size: 24px;
 	cursor: pointer;
